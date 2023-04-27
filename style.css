@@ -1,0 +1,60 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+ul {
+  background-color: #f55a42;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%
+}
+
+ul li a{
+  float: left;
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-family: verdana;
+}
+ul li a:hover {
+  cursor: pointer;
+  background-color: #a13b2b
+}
+ul li a.activepage {
+  background-color: #ff8875
+}
+p{
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 18px;
+}
+
+h1{
+  font-size:60px;
+}
+h2, h3{
+  margin-left:5%;
+  margin-right:5%;
+  margin-top:40px;
+  font-size:25px;
+}
+.fright {
+  float:right;
+}
+.fleft {
+  float:left;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
