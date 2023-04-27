@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+         <title>Albuquerque New Energy</title>
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <meta charset="utf-8">
+        <link href="./style.css" rel="stylesheet">
+        <style>
+            header {
+                background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)),url(https://cloudfront-us-east-1.images.arcpublishing.com/opb/RMEY5CDQJI44JOJJRVJGXTTMKY.jpg);
+                background-size: cover;
+                height: 100vh;
+                margin: 0px;
+                }
+        </style>
+    </head>
+    <body class="greenbg">
+        <div>
+            <header>
+                <h1 class="title">Albuquerque New Energy Project</h1>
+            </header>
+            <h2>Mission</h2>
+            <p>The Albuquerque New Energy Project's mission is to suggest different types of renewable energy for the city of Albuquerque to create a power plant for. The three types of renewable energy that will be considered are Solar, Wind, and Nuclear energy. All of the different costs, locations, and implications will be explored for the possibility of a power plant being constructed for each of these types of energy.</p>
+            <h2>The Issue</h2>
+            <p>Electricity generation from fossil fuels generates pollution that goes into the air, the water, and land. This pollution leads to acid rain, increases in respiratory illness, global warming, and other environmental issues. Fossil fuels are also finite, and once it is all used up, no more energy can be generated using this method. Electricity generation from renewable energy sources, such as solar, wind, and nuclear energy, are abundant and readily available to be used. Renewable energy also has far less environmental impacts compared to energy created from fossil fuels. The city of Albuquerque wants to switch to renewable energy for these reasons and needs to decide between solar, wind, and nuclear energy. Whatever source is used must also generate at least 100 MW per power plant.</p>
+            <h2>Albuquerque</h2>
+            <img src="https://cdn.britannica.com/81/124981-050-4AD9E6A6/Albuquerque-NM.jpg?w=300" class="fright" alt="Albuquerque" style="margin-bottom:20px;">
+            <p>Albuquerque is a large city located in New Mexico and has a population of over 560,000 people. The city is located in a valley in the Chihuahuan Desert, surrounded by mountains, with the Rio Grande running directly through the city. Albuquerque's location makes it rife with potential for renewable energy sources, with a yearly average of 200 clear days for solar energy, strong winds forming from the surrounding mountains for wind energy, and the Rio Grande being available to construct a nuclear power plant next to. The city itself would need about 913,000MWh of energy annually, or 2,500MWh daily.</p>
+        </div>
+        <div class="Navigation">
+            <ul>
+            <li><a class="activepage" href="./index.html">Home</a></li>
+            <li><a href="./solar.html">Solar</a></li>
+            <li><a href="./wind.html">Wind</a></li>
+            <li><a href="./nuclear.html">Nuclear</a></li>
+            <li><a href="./conclusion.html">Conclusion</a></li>
+            </ul>
+            </div>
+    </body>
+</html>
+
+
